@@ -1,8 +1,8 @@
 ---
-- hosts: localhost
-  connection: local
-  vars:
-    - firstname: "John"
+- hosts: all
   roles:
     - { role: helloworld }
+    # - { role: user_settings }
+    # - { role: install }
+    # - { role: configurations }
 
