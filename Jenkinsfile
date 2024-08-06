@@ -5,7 +5,7 @@ pipeline {
        
         stage('Execute Ansible playbook') {
             steps {
-                ansiblePlaybook playbook: 'main-playbook.yml -i hosts.txt'
+                ansiblePlaybook  inventory: 'hosts.txt', playbook: 'main-playbook.yml'
             }
         }
         
