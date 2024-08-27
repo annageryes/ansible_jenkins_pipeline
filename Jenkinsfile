@@ -5,9 +5,6 @@ pipeline {
         string(name: 'username', defaultValue:'jenkins', description:'user to create, if it does not exists')
         password(name: 'password', defaultValue: 'SECRET', description: 'password for the new user')
         text(name: 'ssh_key', defaultValue: '', description: 'ssh key for future remote connection')
-        
-
-        
     }
     stages {
          stage('pre-requisites'){
@@ -15,7 +12,7 @@ pipeline {
                 echo 'Checking pre-requisites'
             
                 sh'''
-                    
+
                     sudo apt-get update
                     sudo apt-get install -y  sshpass 
 
