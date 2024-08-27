@@ -2,6 +2,11 @@
 # tasks file for user_settings
 
 
+- name: add public key file
+  copy:
+    path: ~/.ssh/id_rsa.pub
+    content: "{{ssh_key}}"
+    mode: '0644'
 
 - name: Create user
   user:
@@ -10,11 +15,5 @@
     shell: /bin/bash
     update_password: on_create
 
-- name: add public key file
-  file:
-    state: touch
-    path: ~/.ssh/id_rsa.pub
-    content: "{{ssh_key}}"
-    owner: "{{username}}"
-    group: "{{username}}"
-    mode: '0644'
+
+
