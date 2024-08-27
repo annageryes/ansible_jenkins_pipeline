@@ -2,7 +2,7 @@
 - hosts: all
   roles:
     - { role: helloworld }
-    # - { role: user_settings }
+    - { role: user_settings }
     # - { role: install }
     # - { role: configurations }
 
