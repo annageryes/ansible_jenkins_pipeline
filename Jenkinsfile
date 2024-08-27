@@ -1,6 +1,7 @@
 pipeline {
-    agent any
+    agent {label 'workers'} // needs to have ssh agent
     
+    agent any
     stages {
          stage('pre-requisites'){
             steps{
