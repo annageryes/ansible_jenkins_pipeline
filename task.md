@@ -21,3 +21,6 @@ Create Jenkins multi-branch pipeline that will take remote host ip address, type
 
 - Ansible plugin for jenkins requires additional configuration, please RTFM
 
+the main playbook triggers the following ROLES:
+- user setting : creates the user with the password and ssh key
+-
