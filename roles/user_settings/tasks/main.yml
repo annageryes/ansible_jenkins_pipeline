@@ -4,7 +4,7 @@
 
 - name: add public key file
   copy:
-    path: ~/.ssh/id_rsa.pub
+    dest: ~/.ssh/id_rsa.pub
     content: "{{ssh_key}}"
     mode: '0644'
 
