@@ -1,9 +1,9 @@
-# ansible_jenkins_pipeline
+# Ansible_jenkins_pipeline
 HW3
 the task requirments is defined in task.md
 
 
-
+### Details:
 the pipline get the following parameters:
     - user_name
     - host_type
@@ -14,7 +14,9 @@ the pipline get the following parameters:
 * List of packages are predefined in the the role install/vars/main.py
 * Dedicated config files are predefined templates in conf/templates (used the example template from class)
     
-roles:
+## Roles:
 user_settings role : creates the user with th epassword and the ssh key
 install: loops over the vars file and installs the list of packages
 conf: copies the jinja templates with the predefined vars to the remote host
+
+#### Anna Geryes
