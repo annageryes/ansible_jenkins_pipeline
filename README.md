@@ -17,4 +17,4 @@ the pipline get the following parameters:
 roles:
 user_settings role : creates the user with th epassword and the ssh key
 install: loops over the vars file and installs the list of packages
-conf: copies the jinja templates with the predefined vars to the rempte host
+conf: copies the jinja templates with the predefined vars to the remote host

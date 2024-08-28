@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   roles:
-    # - { role: user_settings }
-    # - { role: install }
+    - { role: user_settings }
+    - { role: install }
     - { role: conf}
 
