@@ -3,7 +3,7 @@
   become: yes
   roles:
     - { role: helloworld }
-    - { role: user_settings }
-    # - { role: install }
+    # - { role: user_settings }
+    - { role: install }
     # - { role: configurations }
 

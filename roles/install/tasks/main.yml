@@ -1,2 +1,5 @@
 ---
 # tasks file for install
+- name: Test install_list first item 
+  debug:
+    msg: "{{ install_list[0] }}"

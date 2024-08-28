@@ -1,2 +1,13 @@
 ---
 # vars file for install
+
+install_list:
+  - wget
+  - curl
+  - python3
+  - python3-pip
+  - pipenv
+  - poetry
+  - pylint
+  
+
