@@ -1,0 +1,6 @@
+---
+# vars file for conf
+
+server: web
+purpose: provide system calls over the http protocol
+port: 80

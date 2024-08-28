@@ -7,7 +7,6 @@ install_list:
   - python3
   - python3-pip
   - pipenv
-  - poetry
   - pylint
   
 
