@@ -4,5 +4,5 @@
   package:
     name: "{{ item }}"
     state: latest
-  loop: "{{ packages }}"
+  loop: "{{ install_list }}"
 
