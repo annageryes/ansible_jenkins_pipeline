@@ -1,6 +1,8 @@
 # Ansible_jenkins_pipeline
 HW3
-the task requirments is defined in task.md
+Written by anna sakran 
+August 2024 - devops course
+Task requirments is defined in [task.md](task.md)
 
 
 ### Details:
